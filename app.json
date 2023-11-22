@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Neatify2",
+    "slug": "Neatify2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/logo-red.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff",
+      "custom": {
+        "component": "./app/component/CustomSplashScreen"
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo-red.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/logo-red.png"
+    }
+  }
+}
